@@ -33,7 +33,7 @@ function Nav() {
           height={30}
           className='object-contain'
         />
-        <p className='logo_text'>Promptopia</p>
+        <p className='logo_text'>FriendShout</p>
       </Link>
 
       {/* Desktop Navigation */}
@@ -42,7 +42,7 @@ function Nav() {
             <div className='flex gap-3 md:gap-5'>
               <Link href="/create-prompt"
               className='black_btn'>
-                Create Prompt
+                Create a Shout
               </Link>
               <button type='button' onClick={signOut} className='outline_btn'>
                 Sign Out

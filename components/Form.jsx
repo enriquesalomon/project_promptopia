@@ -21,7 +21,7 @@ function Form({
         className='mt-10 w-full max-w-2xl flex flex-col gap-7 glassmorphism'
       >
         <label >
-          <span className='font-satoshi font-semibold text-base text-gray-700'>Your AI Prompt</span>
+          <span className='font-satoshi font-semibold text-base text-gray-700'>Shout your details</span>
           <textarea 
             value={post.prompt}
             onChange={(e) => setPost({ ...post,
@@ -37,7 +37,7 @@ function Form({
         <label >
           <span className='font-satoshi font-semibold text-base text-gray-700'>
             Tag {` `}
-            <span className='font-normal'>(#product, #webdevelopment, #idea</span>
+            <span className='font-normal'>(#Single, #lookingForBF, #lookingForGF,#forFriends</span>
           </span>
           <input 
             value={post.tag}
